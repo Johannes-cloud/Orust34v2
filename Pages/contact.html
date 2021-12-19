@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <script src="https://use.fontawesome.com/5880306d85.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <a href="/index.html"><label class="logo">ORUST34</label></a>
+        <ul>
+            <li><a id="navbar" href="/index.html">Home</a></li>
+            <li><a id="navbar" href="posts.html">Posts</a></li>
+            <li><a id="navbar" href="about.html">About</a></li>
+            <li><a id="navbar" class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Contact</h1>
+        <form id="contactForm">
+                <input placeholder="Full name (required)" name="fullName" id="fullName" size="50" >
+                <div class="form-error" id="fullNameError">Please enter your full name</div>
+                <input placeholder="Email (required)" name="email" id="email" size="50" >
+                <div class="form-error" id="emailError">Please enter a valid email address</div>
+                <input placeholder="Subject (required)" name="subject" id="subject" size="50">
+                <div class="form-error" id="subjectError">Please enter a subject</div>
+                <textarea placeholder="Message (required)" rows="5" cols="50" name="message" id="message"></textarea>
+                <div class="form-error" id="messageError">Please enter a message (Should be more than 25 characters long)</div>
+                <button class="button">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        1234 Karl Johans Gate, Oslo, OlaNordmann@Orust34.com
+    </footer>
+  <script src = "/JS/contact.js"></script>
+</body>
+</html>
